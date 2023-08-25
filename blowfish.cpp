@@ -68,7 +68,7 @@ int main(int argc, char* argv[])
 		generateSubkeys(keyBuff);
 
 		// loop to
-		//	get 64-bit (8 charts) block from input file
+		//	get 64-bit (8 chars) block from input file
 		//	encrypt or decrypt
 		//	write result to output file
 		while (getBlock(readFile, blockArr, &blockSize)) {
