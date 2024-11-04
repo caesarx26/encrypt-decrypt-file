@@ -1,5 +1,5 @@
 
-;  Description: write function to read characters from a file using a buffer 
+;  Description: function to read characters from a file using a buffer 
 ; and to also write characters to a file
 
 ;  Functions Template
