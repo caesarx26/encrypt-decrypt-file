@@ -18,12 +18,13 @@ using namespace std;
 //  Prototypes for external functions.
 //	The "C" specifies to use the standard C/C++ style
 //	calling convention.
-
+// these functions are from the assembly file
 extern "C" bool getOptions(int, char* [], bool *, FILE **, FILE **);
 extern "C" bool readKey(char [], int, int);
 extern "C" bool getBlock(FILE *, char [], unsigned int *);
 extern "C" bool writeBlock(FILE *, char [], int);
 
+// these functions are from the blowfish library .so file 
 extern "C" void generateSubkeys(char []);
 extern "C" void blowfishEncrypt(char []);
 extern "C" void blowfishDecrypt(char []);
